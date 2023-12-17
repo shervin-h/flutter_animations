@@ -62,6 +62,14 @@ class MenuScreen extends StatelessWidget {
               title: 'Slider Painter',
               color: Colors.deepOrange,
             ),
+            GridItem(
+              onTap: () {
+                Navigator.of(context)
+                    .pushNamed(PolygonScreen.routeName);
+              },
+              title: 'Polygon',
+              color: Colors.pink,
+            ),
           ],
         ),
       ),

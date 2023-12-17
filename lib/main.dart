@@ -5,6 +5,7 @@ import 'package:animations/screens/animations/rotate_animation_screen.dart';
 import 'package:animations/screens/animations/scale_animation_screen.dart';
 import 'package:animations/screens/menu_screen.dart';
 import 'package:animations/screens/painters/painter.dart';
+import 'package:animations/screens/painters/polygon_painter.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         CompositeAnimationScreen.routeName: (context) =>
             const CompositeAnimationScreen(),
         PainterScreen.routeName: (context) => const PainterScreen(),
+        PolygonScreen.routeName: (context) => const PolygonScreen(),
       },
     );
   }
