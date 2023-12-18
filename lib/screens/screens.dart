@@ -6,3 +6,4 @@ export 'package:animations/screens/animations/rotate_animation_screen.dart';
 export 'package:animations/screens/animations/composite_animations_screen.dart';
 export 'package:animations/screens/painters/painter.dart';
 export 'package:animations/screens/painters/polygon_painter.dart';
+export 'package:animations/screens/3d_model_viewer.dart';

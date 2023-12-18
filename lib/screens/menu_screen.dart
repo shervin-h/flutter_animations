@@ -70,6 +70,14 @@ class MenuScreen extends StatelessWidget {
               title: 'Polygon',
               color: Colors.pink,
             ),
+            GridItem(
+              onTap: () {
+                Navigator.of(context)
+                    .pushNamed(ModelViewerScreen.routeName);
+              },
+              title: '3D Model Viewer',
+              color: Colors.greenAccent,
+            ),
           ],
         ),
       ),
